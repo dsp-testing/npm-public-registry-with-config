@@ -11,6 +11,6 @@ updates:
 registries:
   jfrog-artifactroy:
     type: "npm-registry"
-    url: "https://registry.npmjs.org/lodash"
+    url: "https://registry.npmjs.org"
     token: "${{secrets.EMPTY_TOKEN}}"
     replaces-base: true
