@@ -1,5 +1,24 @@
 {
+  "name": "npmdependabot",
+  "version": "1.0.0",
+  "description": "Testing dependabot npm registry",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/yahoo-core-lang/npmDependabot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/yahoo-core-lang/npmDependabot/issues"
+  },
+  "homepage": "https://github.com/yahoo-core-lang/npmDependabot#readme",
   "dependencies": {
-    "lodash": "^4.17.21"
+    "marked": "^0.3.19"
   }
 }
