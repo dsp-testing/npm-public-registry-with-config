@@ -11,6 +11,6 @@ updates:
 registries:
   jfrog-artifactroy:
     type: "npm-registry"
-    url: "https://registry.npmjs.org"
-    token: "${{secrets.EMPTY_TOKEN}}"
+    url: "https://jfrogghdemo.jfrog.io/artifactory/api/npm/dpndbt-pvt-repo-npm-key/"
+    token: "${{secrets.JFROG_ARTIFACTORY_TOKEN}}"
     replaces-base: true
