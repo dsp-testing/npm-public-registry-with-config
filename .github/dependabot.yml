@@ -7,9 +7,3 @@ updates:
       interval: "daily"
     registries:
       - jfrog-artifactroy
-
-registries:
-  jfrog-artifactroy:
-    type: "npm-registry"
-    url: "https://jfrogghdemo.jfrog.io/artifactory/api/npm/dpndbt-pvt-repo-npm-key/"
-    token: "${{secrets.JFROG_ARTIFACTORY_TOKEN}}"
