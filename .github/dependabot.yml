@@ -5,5 +5,3 @@ updates:
     versioning-strategy: "increase"
     schedule:
       interval: "daily"
-    registries:
-      - jfrog-artifactroy
