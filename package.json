@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/yahoo-core-lang/npmDependabot#readme",
   "dependencies": {
-    "marked": "^0.3.19"
+    "marked": "^16.2.1"
   }
 }
